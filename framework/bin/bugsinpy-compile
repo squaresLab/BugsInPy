@@ -53,7 +53,7 @@ fi
 rm -r -f env/
 
 ###Add environment
-python -m venv env
+python3 -m venv env
 
 ###Activate environment
 if [ -d "env/Scripts" ]; then
