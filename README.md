@@ -23,7 +23,7 @@ fuzz | Run a test input generation from specific bug
 - Help usage from checkout command:
     - `bugsinpy-checkout --help`
 - Checkout a buggy source code version (youtube-dl, bug 2, buggy version):
-    - `bugsinpy-checkout -p youtube-dl -v 0 -i 2 -w /temp/projects`
+    - `bugsinpy-checkout -p youtube-dl -v 0 -i 2 -w <BugsInPy/temp/projects>` <- path where you want the source code to go  
 - Compile sources and tests, and run tests from current directory:
     - `bugsinpy-compile`
     - `bugsinpy-test`
