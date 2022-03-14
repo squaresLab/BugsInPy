@@ -28,3 +28,8 @@ fuzz | Run a test input generation from specific bug
     - `bugsinpy-compile`
     - `bugsinpy-test`
 
+# Flags meaning 
+"-p" : project 
+"-v" : version, 0=buggy, 1=fixed
+"-i" : which bug (i.e., 1,2,3...)
+"-w" : working directory (where you want the source code from the project being tested to go) 
